@@ -1,0 +1,70 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+.vscode/
+
+# Database files
+*.sqlite3
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Django migration files
+/migrations/
+
+# Secret key
+secret_key.txt
+
+# Ignore local settings
+settings_local.py
+
+# Ignore compiled translations
+locale/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore any local development settings
+local_settings.py
+
+# Ignore celery beat schedule file
+celerybeat-schedule
+
+# Ignore pytest cache
+__pycache__/
+.cachefiles/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore yarn.lock
+yarn.lock
